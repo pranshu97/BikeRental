@@ -1,52 +1,29 @@
 # Project Name
-> Outline a brief description of your project.
+> A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Model the demand for shared bikes with the available independent variables.
+- To be used by the management to understand how exactly the demands vary with different features
+- They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. 
+- The model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The most important factors are temperature, weather conditions and year.
+- Temperature is most highly correlated with bookings.
+- Fall season have attracted more bookings.
+- Bookings have increased significantly from year 1 to year 2.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- numpy - 1.20.1
+- pandas - 1.2.4
+- matplotlib - 3.3.4
+- seaborn - 0.11.1
+- scikit-learn - 0.24.1
+- statsmodels - 0.12.2
